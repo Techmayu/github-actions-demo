@@ -9,5 +9,5 @@ jobs:
  steps:
  - name: Checkout code
  uses: actions/checkout@v3
- - name: Print greeting
- run: echo "👋 Hello, GitHub Actions!"
+  - name:Print greeting
+    run:echo "👋 Hello, GitHub Actions!"
